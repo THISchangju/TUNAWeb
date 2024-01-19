@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>개인 취향 테스트(GET)</title>
+</head>
+<body>
+	<h1>개인 취향 테스트(GET)</h1>
+	당신의 취향을 테스트합니다. <br>
+	데이터 입력 후 확인 버튼을 누르세요.
+	<form action="/tasteResult.do" method="get">
+	이름은?<input type="text" name="name"> <br>
+	좋아하는 색? 
+	빨강<input type="radio" name="color" value="red">
+	파랑<input type="radio" name="color" value="blue">
+	노랑<input type="radio" name="color" value="yellow">
+	초록<input type="radio" name="color" value="green"> <br>
+	좋아하는 동물은?
+	<select>
+		<option value="puppy">강아지</option>
+		<option value="kitty">고양이</option>
+		<option value="tiger">호랑이</option>
+		<option value="jaguar">재규어</option>
+	</select>
+	<br>
+	좋아하는 음식은?(모두 고르시오) 
+	짜장면<input type="checkbox" name ="food" value="Wkwkdaus"> 
+	짬뽕<input type="checkbox" name ="food" value="WkaQhd"> 
+	탕수육<input type="checkbox" name ="food" value="xkdtndbr"> 
+	양장피<input type="checkbox" name ="food" value="didwkdvl"> 
+	팔보채<input type="checkbox" name ="food" value="vkfqhco">
+	<br>
+	<input type="submit" value="확인">
+	<input type="reset" value="초기화">	
+	</form>
+</body>
+</html>

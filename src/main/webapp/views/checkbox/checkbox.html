@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>가고 싶은 관광지를 선택하세요(중복가능)</h1>
+	<form action="/checkResult.do" method="get"> <!-- 매소드가 doGet이기 때문에 method ="get"적어야함 -->
+	<input type="checkbox" name="place" value="hawaii"> 하와이
+	<input type="checkbox" name="place" value="swiss"> 스위스
+	<input type="checkbox" name="place" value="italy"> 이태리
+	<input type="checkbox" name="place" value="france"> 프랑스
+	<input type="checkbox" name="place" value="usa"> 미국	
+	<!--한국어로 보낼 때 거의 깨질 수 있기 때문에 무조건 영어로 보냄-->
+	<!--Checkbox일때는 같은 name  -->
+	<input type="submit" value="결과보기">
+	</form>
+	<!-- <input type="checkbox" value="보내주는 값"> 보내주는 값 -->
+</body>
+</html>
